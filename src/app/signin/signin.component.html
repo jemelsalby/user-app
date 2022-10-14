@@ -1,0 +1,24 @@
+<div class="conatiner">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          
+            <div class="row g-3">
+                <div class="col col-12 col-sm-12 col-md-12 col-kg-12 col-xl-12 col-xxl-12">
+                    <label for="Username">Username</label>
+                    <input type="text" placeholder="Username" class="form-control" name="userName"[(ngModel)]="userName">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-kg-12 col-xl-12 col-xxl-12">
+                    <label for="Password">Password</label>
+                    <input type="password" name="password"[(ngModel)]="password" id="" placeholder="Password" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-kg-12 col-xl-12 col-xxl-12">
+                    <button class="btn btn-success" (click)="readValue()">LOGIN</button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <a routerLink="/new">New User</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
