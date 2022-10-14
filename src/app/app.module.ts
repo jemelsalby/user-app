@@ -17,7 +17,7 @@ const routes:Routes=[
     path:"new",component:SignupComponent
   },
   {
-    
+    path:"dash",component:DashboardComponent
   }
 ]
 
